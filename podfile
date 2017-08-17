@@ -1,0 +1,34 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+
+target 'YH-IOS' do 
+    pod 'Reachability', '~> 3.2'
+    pod 'MBProgressHUD'
+    pod 'SSZipArchive', '~> 0.3.2'
+    pod 'SCLAlertView-Objective-C', '~> 0.7.9'
+    pod 'LTHPasscodeViewController', '~> 3.7.1'
+    pod 'AFNetworking', '~>2.5.4'
+    # pod 'QRCodeReaderViewController', '~> 4.0.1'
+    pod 'LBXScan', git:'https://github.com/MxABC/LBXScan.git'
+    # pod 'LBXAlertAction', '~>1.0.3'
+    pod 'ZYCornerRadius', git:'https://github.com/liuzhiyi1992/ZYCornerRadius.git',tag:'0.9.1'
+    # pod 'FXBlurView', '~> 1.6.3'
+    # pod 'WebViewJavascriptBridge', '~> 5.0'
+    # pod 'Pgyer'
+    # pod 'PgyUpdate'
+#    pod 'UMengSocialCOM', '~> 5.2.1'
+    pod 'FMDB'
+    pod "Masonry",          "~> 1.0.1"
+    pod "SDWebImage"
+    pod "MJExtension"
+    pod "MJRefresh"
+    pod "YYKit" 
+    pod 'MRProgress'
+    pod "Mantle", "~>2.1.0"
+    pod "ReactiveObjC"
+    pod 'Bugly'
+    pod "DMPasscode"
+    pod "AMapLocation"
+end
